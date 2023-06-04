@@ -1,0 +1,6 @@
+CREATE TABLE students (
+    id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
+    nom VARCHAR(100) NOT NULL,
+    prenom VARCHAR(255) NOT NULL,
+    contacte INT(10) NOT NULL
+);
